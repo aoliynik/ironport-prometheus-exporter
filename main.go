@@ -23,7 +23,7 @@ func main() {
 
 	// Build status URL
 	statusURL := url.URL{
-		Scheme: "http",
+		Scheme: "https",
 		Host:   *ironportHost,
 		Path:   *ironportStatusPath,
 	}
